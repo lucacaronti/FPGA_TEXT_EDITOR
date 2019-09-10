@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="vga_controller_testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="commonpak" />
+            <top_module name="glbl" />
+            <top_module name="vga_controller_testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="147096089385476fs"></ZoomEndTime>
+      <Cursor1Time time="1000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="194"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="29" />
+   <wave_markers>
+      <marker time="15219414106000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/vga_controller_testbench/vga_controller/pixel_clk" type="logic">
+      <obj_property name="ElementShortName">pixel_clk</obj_property>
+      <obj_property name="ObjectShortName">pixel_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_controller_testbench/vga_controller/res" type="logic">
+      <obj_property name="ElementShortName">res</obj_property>
+      <obj_property name="ObjectShortName">res</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_controller_testbench/vga_controller/h_sync" type="logic">
+      <obj_property name="ElementShortName">h_sync</obj_property>
+      <obj_property name="ObjectShortName">h_sync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_controller_testbench/vga_controller/v_sync" type="logic">
+      <obj_property name="ElementShortName">v_sync</obj_property>
+      <obj_property name="ObjectShortName">v_sync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_controller_testbench/vga_controller/horizontal_active" type="logic">
+      <obj_property name="ElementShortName">horizontal_active</obj_property>
+      <obj_property name="ObjectShortName">horizontal_active</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_controller_testbench/vga_controller/vertical_active" type="logic">
+      <obj_property name="ElementShortName">vertical_active</obj_property>
+      <obj_property name="ObjectShortName">vertical_active</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_controller_testbench/vga_controller/disp_en" type="logic">
+      <obj_property name="ElementShortName">disp_en</obj_property>
+      <obj_property name="ObjectShortName">disp_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_controller_testbench/vga_controller/H_active" type="logic">
+      <obj_property name="ElementShortName">H_active</obj_property>
+      <obj_property name="ObjectShortName">H_active</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_controller_testbench/vga_controller/V_active" type="logic">
+      <obj_property name="ElementShortName">V_active</obj_property>
+      <obj_property name="ObjectShortName">V_active</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_controller_testbench/vga_controller/init_H_count" type="logic">
+      <obj_property name="ElementShortName">init_H_count</obj_property>
+      <obj_property name="ObjectShortName">init_H_count</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_controller_testbench/vga_controller/CE_H" type="logic">
+      <obj_property name="ElementShortName">CE_H</obj_property>
+      <obj_property name="ObjectShortName">CE_H</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_controller_testbench/vga_controller/TC_H" type="logic">
+      <obj_property name="ElementShortName">TC_H</obj_property>
+      <obj_property name="ObjectShortName">TC_H</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_controller_testbench/vga_controller/h_counter" type="other">
+      <obj_property name="ElementShortName">h_counter</obj_property>
+      <obj_property name="ObjectShortName">h_counter</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_controller_testbench/vga_controller/init_V_count" type="logic">
+      <obj_property name="ElementShortName">init_V_count</obj_property>
+      <obj_property name="ObjectShortName">init_V_count</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_controller_testbench/vga_controller/CE_V" type="logic">
+      <obj_property name="ElementShortName">CE_V</obj_property>
+      <obj_property name="ObjectShortName">CE_V</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_controller_testbench/vga_controller/TC_V" type="logic">
+      <obj_property name="ElementShortName">TC_V</obj_property>
+      <obj_property name="ObjectShortName">TC_V</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_controller_testbench/vga_controller/v_counter" type="other">
+      <obj_property name="ElementShortName">v_counter</obj_property>
+      <obj_property name="ObjectShortName">v_counter</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_controller_testbench/vga_controller/h_pulse" type="other">
+      <obj_property name="ElementShortName">h_pulse</obj_property>
+      <obj_property name="ObjectShortName">h_pulse</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_controller_testbench/vga_controller/h_bkprch" type="other">
+      <obj_property name="ElementShortName">h_bkprch</obj_property>
+      <obj_property name="ObjectShortName">h_bkprch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_controller_testbench/vga_controller/h_pixels" type="other">
+      <obj_property name="ElementShortName">h_pixels</obj_property>
+      <obj_property name="ObjectShortName">h_pixels</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_controller_testbench/vga_controller/h_frprch" type="other">
+      <obj_property name="ElementShortName">h_frprch</obj_property>
+      <obj_property name="ObjectShortName">h_frprch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_controller_testbench/vga_controller/h_pol" type="logic">
+      <obj_property name="ElementShortName">h_pol</obj_property>
+      <obj_property name="ObjectShortName">h_pol</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_controller_testbench/vga_controller/v_pulse" type="other">
+      <obj_property name="ElementShortName">v_pulse</obj_property>
+      <obj_property name="ObjectShortName">v_pulse</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_controller_testbench/vga_controller/v_bkprch" type="other">
+      <obj_property name="ElementShortName">v_bkprch</obj_property>
+      <obj_property name="ObjectShortName">v_bkprch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_controller_testbench/vga_controller/v_pixels" type="other">
+      <obj_property name="ElementShortName">v_pixels</obj_property>
+      <obj_property name="ObjectShortName">v_pixels</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_controller_testbench/vga_controller/v_frprch" type="other">
+      <obj_property name="ElementShortName">v_frprch</obj_property>
+      <obj_property name="ObjectShortName">v_frprch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_controller_testbench/vga_controller/v_pol" type="logic">
+      <obj_property name="ElementShortName">v_pol</obj_property>
+      <obj_property name="ObjectShortName">v_pol</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_controller_testbench/vga_controller/h_period" type="other">
+      <obj_property name="ElementShortName">h_period</obj_property>
+      <obj_property name="ObjectShortName">h_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_controller_testbench/vga_controller/v_period" type="other">
+      <obj_property name="ElementShortName">v_period</obj_property>
+      <obj_property name="ObjectShortName">v_period</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,730 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Sep  9 18:46:38 2019
+# Process ID: 10908
+# Current directory: C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/TEXT_VGA/TEXT_VGA.runs/synth_1
+# Command line: vivado.exe -log top_level_project.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_level_project.tcl
+# Log file: C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/TEXT_VGA/TEXT_VGA.runs/synth_1/top_level_project.vds
+# Journal file: C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/TEXT_VGA/TEXT_VGA.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source top_level_project.tcl -notrace
+Command: synth_design -top top_level_project -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 9436 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 729.363 ; gain = 177.762
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'top_level_project' [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/top_level_project.vhd:61]
+INFO: [Synth 8-3491] module 'clk_wiz_0' declared at 'C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/TEXT_VGA/TEXT_VGA.runs/synth_1/.Xil/Vivado-10908-luca/realtime/clk_wiz_0_stub.vhdl:5' bound to instance 'clock_divider' of component 'clk_wiz_0' [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/top_level_project.vhd:148]
+INFO: [Synth 8-638] synthesizing module 'clk_wiz_0' [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/TEXT_VGA/TEXT_VGA.runs/synth_1/.Xil/Vivado-10908-luca/realtime/clk_wiz_0_stub.vhdl:14]
+INFO: [Synth 8-638] synthesizing module 'image_generator' [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/image_generator.vhd:62]
+INFO: [Synth 8-638] synthesizing module 'counter' [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/counter.vhd:52]
+	Parameter MAX bound to: 7 - type: integer 
+	Parameter INIT_VALUE bound to: 0 - type: integer 
+	Parameter INCREASE_BY bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'counter' (1#1) [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/counter.vhd:52]
+INFO: [Synth 8-638] synthesizing module 'counter__parameterized0' [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/counter.vhd:52]
+	Parameter MAX bound to: 79 - type: integer 
+	Parameter INIT_VALUE bound to: 1 - type: integer 
+	Parameter INCREASE_BY bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'counter__parameterized0' (1#1) [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/counter.vhd:52]
+INFO: [Synth 8-638] synthesizing module 'counter__parameterized1' [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/counter.vhd:52]
+	Parameter MAX bound to: 15 - type: integer 
+	Parameter INIT_VALUE bound to: 0 - type: integer 
+	Parameter INCREASE_BY bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'counter__parameterized1' (1#1) [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/counter.vhd:52]
+INFO: [Synth 8-638] synthesizing module 'counter__parameterized2' [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/counter.vhd:52]
+	Parameter MAX bound to: 2320 - type: integer 
+	Parameter INIT_VALUE bound to: 0 - type: integer 
+	Parameter INCREASE_BY bound to: 80 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'counter__parameterized2' (1#1) [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/counter.vhd:52]
+INFO: [Synth 8-256] done synthesizing module 'image_generator' (2#1) [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/image_generator.vhd:62]
+INFO: [Synth 8-638] synthesizing module 'stream' [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/stream.vhd:43]
+INFO: [Synth 8-3491] module 'blk_mem_gen_0' declared at 'C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/TEXT_VGA/TEXT_VGA.runs/synth_1/.Xil/Vivado-10908-luca/realtime/blk_mem_gen_0_stub.vhdl:5' bound to instance 'BRAM' of component 'blk_mem_gen_0' [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/stream.vhd:95]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_gen_0' [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/TEXT_VGA/TEXT_VGA.runs/synth_1/.Xil/Vivado-10908-luca/realtime/blk_mem_gen_0_stub.vhdl:27]
+WARNING: [Synth 8-614] signal 'input_char_value_last_FF' is read in the process but is not in the sensitivity list [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/stream.vhd:122]
+INFO: [Synth 8-256] done synthesizing module 'stream' (3#1) [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/stream.vhd:43]
+INFO: [Synth 8-638] synthesizing module 'frame_buffer' [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/frame_buffer.vhd:88]
+INFO: [Synth 8-3491] module 'blk_mem_gen_1' declared at 'C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/TEXT_VGA/TEXT_VGA.runs/synth_1/.Xil/Vivado-10908-luca/realtime/blk_mem_gen_1_stub.vhdl:5' bound to instance 'BRAM' of component 'blk_mem_gen_1' [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/frame_buffer.vhd:168]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_gen_1' [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/TEXT_VGA/TEXT_VGA.runs/synth_1/.Xil/Vivado-10908-luca/realtime/blk_mem_gen_1_stub.vhdl:20]
+INFO: [Synth 8-3491] module 'blk_mem_gen_2' declared at 'C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/TEXT_VGA/TEXT_VGA.runs/synth_1/.Xil/Vivado-10908-luca/realtime/blk_mem_gen_2_stub.vhdl:5' bound to instance 'BRAM2' of component 'blk_mem_gen_2' [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/frame_buffer.vhd:181]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_gen_2' [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/TEXT_VGA/TEXT_VGA.runs/synth_1/.Xil/Vivado-10908-luca/realtime/blk_mem_gen_2_stub.vhdl:20]
+WARNING: [Synth 8-614] signal 'stream_start_addr_for_scan' is read in the process but is not in the sensitivity list [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/frame_buffer.vhd:268]
+INFO: [Synth 8-256] done synthesizing module 'frame_buffer' (4#1) [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/frame_buffer.vhd:88]
+INFO: [Synth 8-638] synthesizing module 'fonts_ROM' [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/fonts_ROM.vhd:55]
+INFO: [Synth 8-256] done synthesizing module 'fonts_ROM' (5#1) [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/fonts_ROM.vhd:55]
+INFO: [Synth 8-638] synthesizing module 'top_level_keyboard' [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/top_level_keyboard.vhd:46]
+INFO: [Synth 8-638] synthesizing module 'seven_segment_driver' [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/seven_segment_driver.vhd:54]
+	Parameter size bound to: 21 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'seven_segment_driver' (6#1) [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/seven_segment_driver.vhd:54]
+INFO: [Synth 8-638] synthesizing module 'driver_keyboard' [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/driver_keyboard.vhd:45]
+INFO: [Synth 8-638] synthesizing module 'sipo' [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/sipo.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'sipo' (7#1) [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/sipo.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'driver_keyboard' (8#1) [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/driver_keyboard.vhd:45]
+INFO: [Synth 8-638] synthesizing module 'fsm_keyboard' [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/fsm_keyboard.vhd:55]
+INFO: [Synth 8-256] done synthesizing module 'fsm_keyboard' (9#1) [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/fsm_keyboard.vhd:55]
+WARNING: [Synth 8-614] signal 'shift_out' is read in the process but is not in the sensitivity list [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/top_level_keyboard.vhd:162]
+WARNING: [Synth 8-614] signal 'capsLock_en' is read in the process but is not in the sensitivity list [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/top_level_keyboard.vhd:162]
+WARNING: [Synth 8-614] signal 'shift_out' is read in the process but is not in the sensitivity list [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/top_level_keyboard.vhd:330]
+WARNING: [Synth 8-614] signal 'capsLock_en' is read in the process but is not in the sensitivity list [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/top_level_keyboard.vhd:330]
+WARNING: [Synth 8-614] signal 'shift_out' is read in the process but is not in the sensitivity list [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/top_level_keyboard.vhd:497]
+WARNING: [Synth 8-614] signal 'capsLock_en' is read in the process but is not in the sensitivity list [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/top_level_keyboard.vhd:497]
+WARNING: [Synth 8-614] signal 'shift_out' is read in the process but is not in the sensitivity list [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/top_level_keyboard.vhd:664]
+WARNING: [Synth 8-614] signal 'capsLock_en' is read in the process but is not in the sensitivity list [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/top_level_keyboard.vhd:664]
+WARNING: [Synth 8-614] signal 'shift_out' is read in the process but is not in the sensitivity list [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/top_level_keyboard.vhd:831]
+WARNING: [Synth 8-614] signal 'capsLock_en' is read in the process but is not in the sensitivity list [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/top_level_keyboard.vhd:831]
+INFO: [Synth 8-256] done synthesizing module 'top_level_keyboard' (10#1) [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/top_level_keyboard.vhd:46]
+INFO: [Synth 8-638] synthesizing module 'editor' [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/editor.vhd:53]
+WARNING: [Synth 8-614] signal 'present_state' is read in the process but is not in the sensitivity list [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/editor.vhd:113]
+WARNING: [Synth 8-614] signal 'keyboard_digit_1' is read in the process but is not in the sensitivity list [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/editor.vhd:124]
+WARNING: [Synth 8-614] signal 'keyboard_digit_2' is read in the process but is not in the sensitivity list [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/editor.vhd:124]
+WARNING: [Synth 8-614] signal 'keyboard_digit_3' is read in the process but is not in the sensitivity list [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/editor.vhd:124]
+WARNING: [Synth 8-614] signal 'keyboard_digit_4' is read in the process but is not in the sensitivity list [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/editor.vhd:124]
+WARNING: [Synth 8-614] signal 'keyboard_digit_5' is read in the process but is not in the sensitivity list [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/editor.vhd:124]
+WARNING: [Synth 8-614] signal 'button_1_saved_FF' is read in the process but is not in the sensitivity list [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/editor.vhd:249]
+WARNING: [Synth 8-614] signal 'button_2_saved_FF' is read in the process but is not in the sensitivity list [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/editor.vhd:249]
+WARNING: [Synth 8-614] signal 'button_3_saved_FF' is read in the process but is not in the sensitivity list [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/editor.vhd:249]
+WARNING: [Synth 8-614] signal 'button_4_saved_FF' is read in the process but is not in the sensitivity list [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/editor.vhd:249]
+WARNING: [Synth 8-614] signal 'button_5_saved_FF' is read in the process but is not in the sensitivity list [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/editor.vhd:249]
+WARNING: [Synth 8-614] signal 'cursor_rel_pos' is read in the process but is not in the sensitivity list [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/editor.vhd:249]
+WARNING: [Synth 8-614] signal 'frame_start_addr' is read in the process but is not in the sensitivity list [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/editor.vhd:249]
+WARNING: [Synth 8-614] signal 'missing_characters_at_end_of_line' is read in the process but is not in the sensitivity list [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/editor.vhd:249]
+WARNING: [Synth 8-614] signal 'sys_clk' is read in the process but is not in the sensitivity list [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/editor.vhd:249]
+WARNING: [Synth 8-614] signal 'cursor_blink_time' is read in the process but is not in the sensitivity list [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/editor.vhd:382]
+WARNING: [Synth 8-614] signal 'sys_clk' is read in the process but is not in the sensitivity list [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/editor.vhd:382]
+INFO: [Synth 8-256] done synthesizing module 'editor' (11#1) [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/editor.vhd:53]
+INFO: [Synth 8-638] synthesizing module 'vga_controller' [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/vga_controller.vhd:60]
+	Parameter h_pulse bound to: 96 - type: integer 
+	Parameter h_bkprch bound to: 48 - type: integer 
+	Parameter h_pixels bound to: 640 - type: integer 
+	Parameter h_frprch bound to: 16 - type: integer 
+	Parameter h_pol bound to: 1'b0 
+	Parameter v_pulse bound to: 2 - type: integer 
+	Parameter v_bkprch bound to: 33 - type: integer 
+	Parameter v_pixels bound to: 480 - type: integer 
+	Parameter v_frprch bound to: 10 - type: integer 
+	Parameter v_pol bound to: 1'b0 
+INFO: [Synth 8-638] synthesizing module 'counter__parameterized3' [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/counter.vhd:52]
+	Parameter MAX bound to: 799 - type: integer 
+	Parameter INIT_VALUE bound to: 0 - type: integer 
+	Parameter INCREASE_BY bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'counter__parameterized3' (11#1) [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/counter.vhd:52]
+INFO: [Synth 8-638] synthesizing module 'counter__parameterized4' [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/counter.vhd:52]
+	Parameter MAX bound to: 524 - type: integer 
+	Parameter INIT_VALUE bound to: 0 - type: integer 
+	Parameter INCREASE_BY bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'counter__parameterized4' (11#1) [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/counter.vhd:52]
+INFO: [Synth 8-256] done synthesizing module 'vga_controller' (12#1) [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/vga_controller.vhd:60]
+INFO: [Synth 8-256] done synthesizing module 'top_level_project' (13#1) [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/top_level_project.vhd:61]
+WARNING: [Synth 8-3331] design image_generator has unconnected port horizontal_active
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 799.031 ; gain = 247.430
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 799.031 ; gain = 247.430
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 799.031 ; gain = 247.430
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/TEXT_VGA/TEXT_VGA.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'stream/BRAM'
+Finished Parsing XDC File [c:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/TEXT_VGA/TEXT_VGA.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'stream/BRAM'
+Parsing XDC File [c:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/TEXT_VGA/TEXT_VGA.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'clock_divider'
+Finished Parsing XDC File [c:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/TEXT_VGA/TEXT_VGA.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'clock_divider'
+Parsing XDC File [c:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/TEXT_VGA/TEXT_VGA.srcs/sources_1/ip/blk_mem_gen_1_1/blk_mem_gen_1/blk_mem_gen_1_in_context.xdc] for cell 'frame_buffer/BRAM'
+Finished Parsing XDC File [c:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/TEXT_VGA/TEXT_VGA.srcs/sources_1/ip/blk_mem_gen_1_1/blk_mem_gen_1/blk_mem_gen_1_in_context.xdc] for cell 'frame_buffer/BRAM'
+Parsing XDC File [c:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/TEXT_VGA/TEXT_VGA.srcs/sources_1/ip/blk_mem_gen_2/blk_mem_gen_2/blk_mem_gen_2_in_context.xdc] for cell 'frame_buffer/BRAM2'
+Finished Parsing XDC File [c:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/TEXT_VGA/TEXT_VGA.srcs/sources_1/ip/blk_mem_gen_2/blk_mem_gen_2/blk_mem_gen_2_in_context.xdc] for cell 'frame_buffer/BRAM2'
+Parsing XDC File [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/constraints.xdc]
+Finished Parsing XDC File [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/constraints.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/constraints.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_level_project_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_level_project_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/TEXT_VGA/TEXT_VGA.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/TEXT_VGA/TEXT_VGA.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 935.117 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 935.117 ; gain = 0.000
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'frame_buffer/BRAM' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'frame_buffer/BRAM2' at clock pin 'clkb' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'stream/BRAM' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 938.164 ; gain = 386.563
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 938.164 ; gain = 386.563
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for CLK100MHZ. (constraint file  {c:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/TEXT_VGA/TEXT_VGA.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc}, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for CLK100MHZ. (constraint file  {c:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/TEXT_VGA/TEXT_VGA.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc}, line 4).
+Applied set_property DONT_TOUCH = true for stream/BRAM. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for clock_divider. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for frame_buffer/BRAM. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for frame_buffer/BRAM2. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 938.164 ; gain = 386.563
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'present_state_reg' in module 'driver_keyboard'
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/fsm_keyboard.vhd:119]
+INFO: [Synth 8-802] inferred FSM for state register 'present_state_reg' in module 'editor'
+INFO: [Synth 8-4471] merging register 'init_V_count_reg' into 'init_H_count_reg' [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/vga_controller.vhd:88]
+WARNING: [Synth 8-327] inferring latch for variable 'stream_start_addr_for_scan_MEM_reg' [C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/project_vhdl/src/frame_buffer.vhd:273]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+              wait_state |                               00 |                               00
+          start_watchdog |                               01 |                               01
+               load_data |                               10 |                               10
+             reset_state |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'present_state_reg' using encoding 'sequential' in module 'driver_keyboard'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+              wait_state |                             0000 |                             0000
+                 state_5 |                             0001 |                             0101
+                 state_4 |                             0010 |                             0100
+                 state_3 |                             0011 |                             0011
+                 state_2 |                             0100 |                             0010
+                 state_1 |                             0101 |                             0001
+     decrow_cursor_state |                             0110 |                             1001
+     incrow_cursor_state |                             0111 |                             1000
+        dec_cursor_state |                             1000 |                             0111
+        inc_cursor_state |                             1001 |                             0110
+        del_cursor_state |                             1010 |                             1011
+      enter_cursor_state |                             1011 |                             1010
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'present_state_reg' using encoding 'sequential' in module 'editor'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 938.164 ; gain = 386.563
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     27 Bit       Adders := 1     
+	   2 Input     25 Bit       Adders := 1     
+	   2 Input     15 Bit       Adders := 4     
+	   2 Input     12 Bit       Adders := 8     
+	   3 Input     12 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 2     
+	   2 Input      7 Bit       Adders := 3     
+	   2 Input      4 Bit       Adders := 2     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               27 Bit    Registers := 1     
+	               25 Bit    Registers := 1     
+	               15 Bit    Registers := 1     
+	               12 Bit    Registers := 4     
+	               11 Bit    Registers := 1     
+	               10 Bit    Registers := 2     
+	                8 Bit    Registers := 13    
+	                7 Bit    Registers := 4     
+	                4 Bit    Registers := 5     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 30    
++---ROMs : 
+	                              ROMs := 1     
++---Muxes : 
+	   2 Input     27 Bit        Muxes := 1     
+	   2 Input     25 Bit        Muxes := 2     
+	   4 Input     25 Bit        Muxes := 1     
+	   2 Input     15 Bit        Muxes := 1     
+	  12 Input     15 Bit        Muxes := 1     
+	   2 Input     12 Bit        Muxes := 9     
+	  12 Input     12 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 4     
+	   8 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 6     
+	  57 Input      8 Bit        Muxes := 5     
+	   2 Input      7 Bit        Muxes := 13    
+	  12 Input      7 Bit        Muxes := 2     
+	   2 Input      6 Bit        Muxes := 11    
+	   2 Input      4 Bit        Muxes := 8     
+	  73 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 2     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 66    
+	   4 Input      1 Bit        Muxes := 11    
+	   5 Input      1 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 2     
+	  12 Input      1 Bit        Muxes := 14    
+	   3 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module counter 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	                3 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      3 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 2     
+Module counter__parameterized0 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      7 Bit       Adders := 1     
++---Registers : 
+	                7 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      7 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 2     
+Module counter__parameterized1 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 2     
+Module counter__parameterized2 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     12 Bit       Adders := 1     
++---Registers : 
+	               12 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 1     
+Module image_generator 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     12 Bit       Adders := 1     
++---Registers : 
+	               12 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 3     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 6     
+Module stream 
+Detailed RTL Component Info : 
++---Registers : 
+	                7 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     15 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 1     
+Module frame_buffer 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     15 Bit       Adders := 1     
+	   2 Input     12 Bit       Adders := 2     
++---Registers : 
+	               12 Bit    Registers := 1     
+	                1 Bit    Registers := 7     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 5     
+Module fonts_ROM 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module seven_segment_driver 
+Detailed RTL Component Info : 
++---Muxes : 
+	   8 Input      8 Bit        Muxes := 1     
+Module sipo 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               11 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 2     
+Module driver_keyboard 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     25 Bit       Adders := 1     
++---Registers : 
+	               25 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     25 Bit        Muxes := 2     
+	   4 Input     25 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 5     
+Module fsm_keyboard 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+	                8 Bit    Registers := 5     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 40    
+	   4 Input      1 Bit        Muxes := 6     
+	   5 Input      1 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 2     
+Module top_level_keyboard 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 5     
++---Muxes : 
+	  57 Input      8 Bit        Muxes := 5     
+	   2 Input      8 Bit        Muxes := 5     
+	   2 Input      7 Bit        Muxes := 3     
+	   2 Input      6 Bit        Muxes := 11    
+Module editor 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     27 Bit       Adders := 1     
+	   2 Input     15 Bit       Adders := 3     
+	   2 Input     12 Bit       Adders := 4     
+	   3 Input     12 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 2     
++---Registers : 
+	               27 Bit    Registers := 1     
+	               15 Bit    Registers := 1     
+	               12 Bit    Registers := 1     
+	                7 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     27 Bit        Muxes := 1     
+	  12 Input     15 Bit        Muxes := 1     
+	   2 Input     12 Bit        Muxes := 3     
+	  12 Input     12 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 7     
+	  12 Input      7 Bit        Muxes := 2     
+	  73 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 9     
+	  12 Input      1 Bit        Muxes := 14    
+	   3 Input      1 Bit        Muxes := 1     
+Module counter__parameterized3 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 1     
++---Registers : 
+	               10 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     10 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 1     
+Module counter__parameterized4 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 1     
++---Registers : 
+	               10 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     10 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 1     
+Module vga_controller 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 7     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-3886] merging instance 'TL_keyboard/keyboard_digit_3_reg[7]' (FD) to 'TL_keyboard/keyboard_digit_4_reg[7]'
+INFO: [Synth 8-3886] merging instance 'TL_keyboard/keyboard_digit_1_reg[7]' (FD) to 'TL_keyboard/keyboard_digit_4_reg[7]'
+INFO: [Synth 8-3886] merging instance 'TL_keyboard/keyboard_digit_5_reg[7]' (FD) to 'TL_keyboard/keyboard_digit_4_reg[7]'
+INFO: [Synth 8-3886] merging instance 'TL_keyboard/keyboard_digit_4_reg[7]' (FD) to 'TL_keyboard/keyboard_digit_2_reg[7]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\TL_keyboard/keyboard_digit_2_reg[7] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\vga_controller/CE_H_reg )
+INFO: [Synth 8-3886] merging instance 'TL_keyboard/fsmKeyboard/key_rel_reg[1]' (FDCE) to 'TL_keyboard/fsmKeyboard/key_rel_reg[31]'
+INFO: [Synth 8-3886] merging instance 'TL_keyboard/fsmKeyboard/key_rel_reg[2]' (FDCE) to 'TL_keyboard/fsmKeyboard/key_rel_reg[31]'
+INFO: [Synth 8-3886] merging instance 'TL_keyboard/fsmKeyboard/key_rel_reg[3]' (FDCE) to 'TL_keyboard/fsmKeyboard/key_rel_reg[31]'
+INFO: [Synth 8-3886] merging instance 'TL_keyboard/fsmKeyboard/key_rel_reg[4]' (FDCE) to 'TL_keyboard/fsmKeyboard/key_rel_reg[31]'
+INFO: [Synth 8-3886] merging instance 'TL_keyboard/fsmKeyboard/key_rel_reg[5]' (FDCE) to 'TL_keyboard/fsmKeyboard/key_rel_reg[31]'
+INFO: [Synth 8-3886] merging instance 'TL_keyboard/fsmKeyboard/key_rel_reg[6]' (FDCE) to 'TL_keyboard/fsmKeyboard/key_rel_reg[31]'
+INFO: [Synth 8-3886] merging instance 'TL_keyboard/fsmKeyboard/key_rel_reg[7]' (FDCE) to 'TL_keyboard/fsmKeyboard/key_rel_reg[31]'
+INFO: [Synth 8-3886] merging instance 'TL_keyboard/fsmKeyboard/key_rel_reg[8]' (FDCE) to 'TL_keyboard/fsmKeyboard/key_rel_reg[31]'
+INFO: [Synth 8-3886] merging instance 'TL_keyboard/fsmKeyboard/key_rel_reg[9]' (FDCE) to 'TL_keyboard/fsmKeyboard/key_rel_reg[31]'
+INFO: [Synth 8-3886] merging instance 'TL_keyboard/fsmKeyboard/key_rel_reg[10]' (FDCE) to 'TL_keyboard/fsmKeyboard/key_rel_reg[31]'
+INFO: [Synth 8-3886] merging instance 'TL_keyboard/fsmKeyboard/key_rel_reg[11]' (FDCE) to 'TL_keyboard/fsmKeyboard/key_rel_reg[31]'
+INFO: [Synth 8-3886] merging instance 'TL_keyboard/fsmKeyboard/key_rel_reg[12]' (FDCE) to 'TL_keyboard/fsmKeyboard/key_rel_reg[31]'
+INFO: [Synth 8-3886] merging instance 'TL_keyboard/fsmKeyboard/key_rel_reg[13]' (FDCE) to 'TL_keyboard/fsmKeyboard/key_rel_reg[31]'
+INFO: [Synth 8-3886] merging instance 'TL_keyboard/fsmKeyboard/key_rel_reg[14]' (FDCE) to 'TL_keyboard/fsmKeyboard/key_rel_reg[31]'
+INFO: [Synth 8-3886] merging instance 'TL_keyboard/fsmKeyboard/key_rel_reg[15]' (FDCE) to 'TL_keyboard/fsmKeyboard/key_rel_reg[31]'
+INFO: [Synth 8-3886] merging instance 'TL_keyboard/fsmKeyboard/key_rel_reg[16]' (FDCE) to 'TL_keyboard/fsmKeyboard/key_rel_reg[31]'
+INFO: [Synth 8-3886] merging instance 'TL_keyboard/fsmKeyboard/key_rel_reg[17]' (FDCE) to 'TL_keyboard/fsmKeyboard/key_rel_reg[31]'
+INFO: [Synth 8-3886] merging instance 'TL_keyboard/fsmKeyboard/key_rel_reg[18]' (FDCE) to 'TL_keyboard/fsmKeyboard/key_rel_reg[31]'
+INFO: [Synth 8-3886] merging instance 'TL_keyboard/fsmKeyboard/key_rel_reg[19]' (FDCE) to 'TL_keyboard/fsmKeyboard/key_rel_reg[31]'
+INFO: [Synth 8-3886] merging instance 'TL_keyboard/fsmKeyboard/key_rel_reg[20]' (FDCE) to 'TL_keyboard/fsmKeyboard/key_rel_reg[31]'
+INFO: [Synth 8-3886] merging instance 'TL_keyboard/fsmKeyboard/key_rel_reg[21]' (FDCE) to 'TL_keyboard/fsmKeyboard/key_rel_reg[31]'
+INFO: [Synth 8-3886] merging instance 'TL_keyboard/fsmKeyboard/key_rel_reg[22]' (FDCE) to 'TL_keyboard/fsmKeyboard/key_rel_reg[31]'
+INFO: [Synth 8-3886] merging instance 'TL_keyboard/fsmKeyboard/key_rel_reg[23]' (FDCE) to 'TL_keyboard/fsmKeyboard/key_rel_reg[31]'
+INFO: [Synth 8-3886] merging instance 'TL_keyboard/fsmKeyboard/key_rel_reg[24]' (FDCE) to 'TL_keyboard/fsmKeyboard/key_rel_reg[31]'
+INFO: [Synth 8-3886] merging instance 'TL_keyboard/fsmKeyboard/key_rel_reg[25]' (FDCE) to 'TL_keyboard/fsmKeyboard/key_rel_reg[31]'
+INFO: [Synth 8-3886] merging instance 'TL_keyboard/fsmKeyboard/key_rel_reg[26]' (FDCE) to 'TL_keyboard/fsmKeyboard/key_rel_reg[31]'
+INFO: [Synth 8-3886] merging instance 'TL_keyboard/fsmKeyboard/key_rel_reg[27]' (FDCE) to 'TL_keyboard/fsmKeyboard/key_rel_reg[31]'
+INFO: [Synth 8-3886] merging instance 'TL_keyboard/fsmKeyboard/key_rel_reg[28]' (FDCE) to 'TL_keyboard/fsmKeyboard/key_rel_reg[31]'
+INFO: [Synth 8-3886] merging instance 'TL_keyboard/fsmKeyboard/key_rel_reg[29]' (FDCE) to 'TL_keyboard/fsmKeyboard/key_rel_reg[31]'
+INFO: [Synth 8-3886] merging instance 'TL_keyboard/fsmKeyboard/key_rel_reg[30]' (FDCE) to 'TL_keyboard/fsmKeyboard/key_rel_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\TL_keyboard/fsmKeyboard/key_rel_reg[31] )
+INFO: [Synth 8-3886] merging instance 'frame_buffer/stream_start_addr_for_scan_MEM_reg[0]' (LD) to 'frame_buffer/stream_start_addr_for_scan_MEM_reg[1]'
+INFO: [Synth 8-3886] merging instance 'frame_buffer/stream_start_addr_for_scan_MEM_reg[1]' (LD) to 'frame_buffer/stream_start_addr_for_scan_MEM_reg[2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\frame_buffer/stream_start_addr_for_scan_MEM_reg[2] )
+WARNING: [Synth 8-3332] Sequential element (frame_buffer/stream_start_addr_for_scan_MEM_reg[2]) is unused and will be removed from module top_level_project.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 938.164 ; gain = 386.563
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++------------------+------------------------+---------------+----------------+
+|Module Name       | RTL Object             | Depth x Width | Implemented As | 
++------------------+------------------------+---------------+----------------+
+|top_level_project | fonts_rom/data_out_reg | 2048x8        | Block RAM      | 
++------------------+------------------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6837] The timing for the instance i_5/fonts_rom/data_out_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'clock_divider/clk_vga' to pin 'clock_divider/bbstub_clk_vga/O'
+INFO: [Synth 8-5819] Moved 1 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:37 ; elapsed = 00:00:39 . Memory (MB): peak = 938.164 ; gain = 386.563
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:50 ; elapsed = 00:00:52 . Memory (MB): peak = 1204.715 ; gain = 653.113
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6837] The timing for the instance fonts_rom/data_out_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:51 ; elapsed = 00:00:53 . Memory (MB): peak = 1204.715 ; gain = 653.113
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:53 ; elapsed = 00:00:55 . Memory (MB): peak = 1206.926 ; gain = 655.324
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:53 ; elapsed = 00:00:55 . Memory (MB): peak = 1206.926 ; gain = 655.324
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:54 ; elapsed = 00:00:55 . Memory (MB): peak = 1206.926 ; gain = 655.324
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:54 ; elapsed = 00:00:55 . Memory (MB): peak = 1206.926 ; gain = 655.324
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:54 ; elapsed = 00:00:56 . Memory (MB): peak = 1206.926 ; gain = 655.324
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:54 ; elapsed = 00:00:56 . Memory (MB): peak = 1206.926 ; gain = 655.324
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |clk_wiz_0     |         1|
+|2     |blk_mem_gen_1 |         1|
+|3     |blk_mem_gen_2 |         1|
+|4     |blk_mem_gen_0 |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+---------------------+------+
+|      |Cell                 |Count |
++------+---------------------+------+
+|1     |blk_mem_gen_0_bbox_1 |     1|
+|2     |blk_mem_gen_1_bbox_2 |     1|
+|3     |blk_mem_gen_2_bbox_3 |     1|
+|4     |clk_wiz_0_bbox_0     |     1|
+|5     |BUFG                 |     2|
+|6     |CARRY4               |    73|
+|7     |LUT1                 |    57|
+|8     |LUT2                 |   221|
+|9     |LUT3                 |    84|
+|10    |LUT4                 |    78|
+|11    |LUT5                 |   154|
+|12    |LUT6                 |   416|
+|13    |MUXF7                |    14|
+|14    |RAMB18E1             |     1|
+|15    |FDCE                 |   201|
+|16    |FDPE                 |     3|
+|17    |FDRE                 |   166|
+|18    |LD                   |    12|
+|19    |IBUF                 |    15|
+|20    |OBUF                 |    30|
++------+---------------------+------+
+
+Report Instance Areas: 
++------+-------------------+------------------------+------+
+|      |Instance           |Module                  |Cells |
++------+-------------------+------------------------+------+
+|1     |top                |                        |  1552|
+|2     |  TL_keyboard      |top_level_keyboard      |   817|
+|3     |    displayDriver  |seven_segment_driver    |    38|
+|4     |    driverKeyboard |driver_keyboard         |   100|
+|5     |      sipo1        |sipo                    |    26|
+|6     |    fsmKeyboard    |fsm_keyboard            |   557|
+|7     |  editor1          |editor                  |   356|
+|8     |  fonts_rom        |fonts_ROM               |     1|
+|9     |  frame_buffer     |frame_buffer            |   121|
+|10    |  img_gen          |image_generator         |   118|
+|11    |    COUNT_A        |counter                 |    22|
+|12    |    COUNT_AA       |counter__parameterized0 |    15|
+|13    |    COUNT_B        |counter__parameterized1 |     9|
+|14    |    COUNT_BB       |counter__parameterized2 |    29|
+|15    |  stream           |stream                  |    24|
+|16    |  vga_controller   |vga_controller          |    67|
+|17    |    COUNT_H        |counter__parameterized3 |    28|
+|18    |    COUNT_V        |counter__parameterized4 |    28|
++------+-------------------+------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:54 ; elapsed = 00:00:56 . Memory (MB): peak = 1206.926 ; gain = 655.324
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 2 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:46 ; elapsed = 00:00:53 . Memory (MB): peak = 1206.926 ; gain = 516.191
+Synthesis Optimization Complete : Time (s): cpu = 00:00:54 ; elapsed = 00:00:56 . Memory (MB): peak = 1206.926 ; gain = 655.324
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 100 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 12 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1206.926 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 12 instances were transformed.
+  LD => LDCE (inverted pins: G): 12 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+107 Infos, 35 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:02 ; elapsed = 00:01:04 . Memory (MB): peak = 1206.926 ; gain = 910.535
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1206.926 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Luca/Google Drive/secondo anno universita/elettronica/VHDL/ProgettoELE3/TEXT_VGA/TEXT_VGA.runs/synth_1/top_level_project.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_level_project_utilization_synth.rpt -pb top_level_project_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Sep  9 18:47:47 2019...

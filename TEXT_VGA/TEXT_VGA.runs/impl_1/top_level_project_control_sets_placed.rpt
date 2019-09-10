@@ -1,0 +1,107 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Mon Sep  9 18:48:36 2019
+| Host         : luca running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file top_level_project_control_sets_placed.rpt
+| Design       : top_level_project
+| Device       : xc7a100t
+----------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    29 |
+|    Minimum number of control sets                        |    29 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    90 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    29 |
+| >= 0 to < 4        |     2 |
+| >= 4 to < 6        |     3 |
+| >= 6 to < 8        |     3 |
+| >= 8 to < 10       |     8 |
+| >= 10 to < 12      |     2 |
+| >= 12 to < 14      |     6 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     5 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              66 |           38 |
+| No           | No                    | Yes                    |              75 |           26 |
+| No           | Yes                   | No                     |              53 |           22 |
+| Yes          | No                    | No                     |              25 |           10 |
+| Yes          | No                    | Yes                    |             130 |           40 |
+| Yes          | Yes                   | No                     |              49 |           19 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-------------------------------------+----------------------------------------------------------+---------------------------------------------------+------------------+----------------+
+|             Clock Signal            |                       Enable Signal                      |                  Set/Reset Signal                 | Slice Load Count | Bel Load Count |
++-------------------------------------+----------------------------------------------------------+---------------------------------------------------+------------------+----------------+
+| ~PS2_CLK_IBUF_BUFG                  |                                                          | TL_keyboard/driverKeyboard/sipo1/clear            |                1 |              2 |
+|  clock_divider/inst/clk_vga         |                                                          |                                                   |                1 |              2 |
+|  CLK100MHZ_IBUF_BUFG                | editor1/FSM_sequential_present_state[3]_i_1_n_0          | TL_keyboard/fsmKeyboard/CPU_RESETN                |                2 |              4 |
+| ~PS2_CLK_IBUF_BUFG                  | TL_keyboard/driverKeyboard/sipo1/sipo_counter[3]_i_1_n_0 | TL_keyboard/driverKeyboard/sipo1/clear            |                1 |              4 |
+|  clock_divider/inst/clk_vga         | img_gen/COUNT_AA/E[0]                                    | TL_keyboard/fsmKeyboard/CPU_RESETN                |                1 |              4 |
+|  CLK100MHZ_IBUF_BUFG                |                                                          | TL_keyboard/fsmKeyboard/queue_reg[4][7]_0[0]      |                5 |              6 |
+|  CLK100MHZ_IBUF_BUFG                | editor1/missing_characters_at_end_of_line[6]_i_1_n_0     |                                                   |                4 |              7 |
+|  clock_divider/inst/clk_vga         | img_gen/COUNT_A/E[0]                                     | TL_keyboard/fsmKeyboard/CPU_RESETN                |                3 |              7 |
+|  CLK100MHZ_IBUF_BUFG                | TL_keyboard/driverKeyboard/data_out[7]_i_1_n_0           |                                                   |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG                | TL_keyboard/fsmKeyboard/queue[0][7]_i_1_n_0              | TL_keyboard/fsmKeyboard/CPU_RESETN                |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG                | TL_keyboard/fsmKeyboard/queue[3][7]_i_1_n_0              | TL_keyboard/fsmKeyboard/CPU_RESETN                |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG                | TL_keyboard/fsmKeyboard/queue[2][7]_i_1_n_0              | TL_keyboard/fsmKeyboard/CPU_RESETN                |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG                | TL_keyboard/fsmKeyboard/queue[1][7]_i_1_n_0              | TL_keyboard/fsmKeyboard/CPU_RESETN                |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG                | TL_keyboard/fsmKeyboard/queue[4][7]_i_1_n_0              | TL_keyboard/fsmKeyboard/CPU_RESETN                |                3 |              8 |
+|  clock_divider/inst/clk_vga         | img_gen/COUNT_A/counter_reg[1]_1[0]                      | TL_keyboard/fsmKeyboard/CPU_RESETN                |                3 |              8 |
+|  clock_divider/inst/clk_vga         | img_gen/COUNT_B/E[0]                                     | TL_keyboard/fsmKeyboard/CPU_RESETN                |                3 |              9 |
+| ~PS2_CLK_IBUF_BUFG                  | TL_keyboard/driverKeyboard/init_sipo                     |                                                   |                4 |             10 |
+|  clock_divider/inst/clk_vga         | vga_controller/COUNT_V/counter[9]_i_1_n_0                | TL_keyboard/fsmKeyboard/CPU_RESETN                |                3 |             10 |
+|  CLK100MHZ_IBUF_BUFG                | editor1/cursor_rel_pos[11]_i_1_n_0                       | TL_keyboard/fsmKeyboard/CPU_RESETN                |                6 |             12 |
+|  CLK100MHZ_IBUF_BUFG                | editor1/frame_start_addr[14]_i_1_n_0                     | TL_keyboard/fsmKeyboard/CPU_RESETN                |                6 |             12 |
+|  CLK100MHZ_IBUF_BUFG                | frame_buffer/value[11]_i_1_n_0                           | TL_keyboard/fsmKeyboard/CPU_RESETN                |                5 |             12 |
+|  clock_divider/inst/clk_vga         |                                                          | vga_controller/H_active_reg_2                     |                3 |             12 |
+| ~frame_buffer/present_state_reg_n_0 |                                                          |                                                   |                6 |             12 |
+|  V_active_BUFG                      |                                                          | TL_keyboard/fsmKeyboard/CPU_RESETN                |                4 |             13 |
+|  clock_divider/inst/clk_vga         |                                                          | TL_keyboard/fsmKeyboard/CPU_RESETN                |                9 |             20 |
+|  CLK100MHZ_IBUF_BUFG                | TL_keyboard/driverKeyboard/watch_dog0                    | TL_keyboard/driverKeyboard/sipo1/data_ready_reg_0 |                7 |             25 |
+|  CLK100MHZ_IBUF_BUFG                | TL_keyboard/fsmKeyboard/queue_counter[0]_i_1_n_0         | TL_keyboard/fsmKeyboard/CPU_RESETN                |                8 |             32 |
+|  CLK100MHZ_IBUF_BUFG                |                                                          |                                                   |               31 |             54 |
+|  CLK100MHZ_IBUF_BUFG                |                                                          | TL_keyboard/fsmKeyboard/CPU_RESETN                |               26 |             75 |
++-------------------------------------+----------------------------------------------------------+---------------------------------------------------+------------------+----------------+
+
+

@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="image_generator_testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="commonpak" />
+            <top_module name="glbl" />
+            <top_module name="image_generator_testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="16687599356000fs"></ZoomStartTime>
+      <ZoomEndTime time="16688323356001fs"></ZoomEndTime>
+      <Cursor1Time time="16687778356000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="230"></NameColumnWidth>
+      <ValueColumnWidth column_width="77"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="67" />
+   <wvobject fp_name="/image_generator_testbench/CLK100MHZ" type="logic">
+      <obj_property name="ElementShortName">CLK100MHZ</obj_property>
+      <obj_property name="ObjectShortName">CLK100MHZ</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/image_generator_testbench/CPU_RESETN" type="logic">
+      <obj_property name="ElementShortName">CPU_RESETN</obj_property>
+      <obj_property name="ObjectShortName">CPU_RESETN</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/image_generator_testbench/CLK_25" type="logic">
+      <obj_property name="ElementShortName">CLK_25</obj_property>
+      <obj_property name="ObjectShortName">CLK_25</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/image_generator_testbench/VGA_HS" type="logic">
+      <obj_property name="ElementShortName">VGA_HS</obj_property>
+      <obj_property name="ObjectShortName">VGA_HS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/image_generator_testbench/VGA_VS" type="logic">
+      <obj_property name="ElementShortName">VGA_VS</obj_property>
+      <obj_property name="ObjectShortName">VGA_VS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/image_generator_testbench/disp_en" type="logic">
+      <obj_property name="ElementShortName">disp_en</obj_property>
+      <obj_property name="ObjectShortName">disp_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/image_generator_testbench/disp_en_fut" type="logic">
+      <obj_property name="ElementShortName">disp_en_fut</obj_property>
+      <obj_property name="ObjectShortName">disp_en_fut</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/image_generator_testbench/column" type="other">
+      <obj_property name="ElementShortName">column</obj_property>
+      <obj_property name="ObjectShortName">column</obj_property>
+   </wvobject>
+   <wvobject fp_name="/image_generator_testbench/row" type="other">
+      <obj_property name="ElementShortName">row</obj_property>
+      <obj_property name="ObjectShortName">row</obj_property>
+   </wvobject>
+   <wvobject fp_name="/image_generator_testbench/VGA_R" type="array">
+      <obj_property name="ElementShortName">VGA_R[3:0]</obj_property>
+      <obj_property name="ObjectShortName">VGA_R[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/image_generator_testbench/VGA_G" type="array">
+      <obj_property name="ElementShortName">VGA_G[3:0]</obj_property>
+      <obj_property name="ObjectShortName">VGA_G[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/image_generator_testbench/VGA_B" type="array">
+      <obj_property name="ElementShortName">VGA_B[3:0]</obj_property>
+      <obj_property name="ObjectShortName">VGA_B[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/image_generator_testbench/H_active" type="logic">
+      <obj_property name="ElementShortName">H_active</obj_property>
+      <obj_property name="ObjectShortName">H_active</obj_property>
+   </wvobject>
+   <wvobject fp_name="/image_generator_testbench/V_active" type="logic">
+      <obj_property name="ElementShortName">V_active</obj_property>
+      <obj_property name="ObjectShortName">V_active</obj_property>
+   </wvobject>
+   <wvobject fp_name="/image_generator_testbench/data_FB_to_image_generator" type="array">
+      <obj_property name="ElementShortName">data_FB_to_image_generator[6:0]</obj_property>
+      <obj_property name="ObjectShortName">data_FB_to_image_generator[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/image_generator_testbench/addr_IG_to_FB" type="array">
+      <obj_property name="ElementShortName">addr_IG_to_FB[11:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_IG_to_FB[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/image_generator_testbench/address_for_fonts_rom_data" type="array">
+      <obj_property name="ElementShortName">address_for_fonts_rom_data[10:0]</obj_property>
+      <obj_property name="ObjectShortName">address_for_fonts_rom_data[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/image_generator_testbench/data_from_fonts_rom" type="array">
+      <obj_property name="ElementShortName">data_from_fonts_rom[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_from_fonts_rom[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/image_generator_testbench/img_gen/pixels_value_to_VGA" type="array">
+      <obj_property name="ElementShortName">pixels_value_to_VGA[0:7]</obj_property>
+      <obj_property name="ObjectShortName">pixels_value_to_VGA[0:7]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/image_generator_testbench/cursor_rel_pos" type="other">
+      <obj_property name="ElementShortName">cursor_rel_pos</obj_property>
+      <obj_property name="ObjectShortName">cursor_rel_pos</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/image_generator_testbench/cursor_blink_time" type="logic">
+      <obj_property name="ElementShortName">cursor_blink_time</obj_property>
+      <obj_property name="ObjectShortName">cursor_blink_time</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/image_generator_testbench/input_char_value" type="array">
+      <obj_property name="ElementShortName">input_char_value[6:0]</obj_property>
+      <obj_property name="ObjectShortName">input_char_value[6:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/image_generator_testbench/addr_to_stream_for_data" type="array">
+      <obj_property name="ElementShortName">addr_to_stream_for_data[14:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_to_stream_for_data[14:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/image_generator_testbench/output_char_value" type="array">
+      <obj_property name="ElementShortName">output_char_value[6:0]</obj_property>
+      <obj_property name="ObjectShortName">output_char_value[6:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/image_generator_testbench/set_cursor_pos" type="other">
+      <obj_property name="ElementShortName">set_cursor_pos</obj_property>
+      <obj_property name="ObjectShortName">set_cursor_pos</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/image_generator_testbench/is_wrt" type="logic">
+      <obj_property name="ElementShortName">is_wrt</obj_property>
+      <obj_property name="ObjectShortName">is_wrt</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/image_generator_testbench/cvga_c/h_counter" type="other">
+      <obj_property name="ElementShortName">h_counter</obj_property>
+      <obj_property name="ObjectShortName">h_counter</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/image_generator_testbench/cvga_c/v_counter" type="other">
+      <obj_property name="ElementShortName">v_counter</obj_property>
+      <obj_property name="ObjectShortName">v_counter</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/image_generator_testbench/img_gen/counter_A" type="other">
+      <obj_property name="ElementShortName">counter_A</obj_property>
+      <obj_property name="ObjectShortName">counter_A</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/image_generator_testbench/img_gen/counter_AA" type="other">
+      <obj_property name="ElementShortName">counter_AA</obj_property>
+      <obj_property name="ObjectShortName">counter_AA</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/image_generator_testbench/img_gen/counter_B" type="other">
+      <obj_property name="ElementShortName">counter_B</obj_property>
+      <obj_property name="ObjectShortName">counter_B</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/image_generator_testbench/img_gen/counter_BB" type="other">
+      <obj_property name="ElementShortName">counter_BB</obj_property>
+      <obj_property name="ObjectShortName">counter_BB</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/image_generator_testbench/img_gen/CE_A" type="logic">
+      <obj_property name="ElementShortName">CE_A</obj_property>
+      <obj_property name="ObjectShortName">CE_A</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/image_generator_testbench/img_gen/CE_AA" type="logic">
+      <obj_property name="ElementShortName">CE_AA</obj_property>
+      <obj_property name="ObjectShortName">CE_AA</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/image_generator_testbench/img_gen/CE_B" type="logic">
+      <obj_property name="ElementShortName">CE_B</obj_property>
+      <obj_property name="ObjectShortName">CE_B</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/image_generator_testbench/img_gen/CE_BB" type="logic">
+      <obj_property name="ElementShortName">CE_BB</obj_property>
+      <obj_property name="ObjectShortName">CE_BB</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/image_generator_testbench/img_gen/TC_A" type="logic">
+      <obj_property name="ElementShortName">TC_A</obj_property>
+      <obj_property name="ObjectShortName">TC_A</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/image_generator_testbench/img_gen/TC_AA" type="logic">
+      <obj_property name="ElementShortName">TC_AA</obj_property>
+      <obj_property name="ObjectShortName">TC_AA</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/image_generator_testbench/img_gen/TC_B" type="logic">
+      <obj_property name="ElementShortName">TC_B</obj_property>
+      <obj_property name="ObjectShortName">TC_B</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/image_generator_testbench/img_gen/TC_BB" type="logic">
+      <obj_property name="ElementShortName">TC_BB</obj_property>
+      <obj_property name="ObjectShortName">TC_BB</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/image_generator_testbench/img_gen/INIT_A" type="logic">
+      <obj_property name="ElementShortName">INIT_A</obj_property>
+      <obj_property name="ObjectShortName">INIT_A</obj_property>
+   </wvobject>
+   <wvobject fp_name="/image_generator_testbench/img_gen/INIT_AA" type="logic">
+      <obj_property name="ElementShortName">INIT_AA</obj_property>
+      <obj_property name="ObjectShortName">INIT_AA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/image_generator_testbench/img_gen/INIT_B" type="logic">
+      <obj_property name="ElementShortName">INIT_B</obj_property>
+      <obj_property name="ObjectShortName">INIT_B</obj_property>
+   </wvobject>
+   <wvobject fp_name="/image_generator_testbench/img_gen/INIT_BB" type="logic">
+      <obj_property name="ElementShortName">INIT_BB</obj_property>
+      <obj_property name="ObjectShortName">INIT_BB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/image_generator_testbench/img_gen/addr_for_FB" type="other">
+      <obj_property name="ElementShortName">addr_for_FB</obj_property>
+      <obj_property name="ObjectShortName">addr_for_FB</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/image_generator_testbench/img_gen/cursor_rel_pos_MEM" type="other">
+      <obj_property name="ElementShortName">cursor_rel_pos_MEM</obj_property>
+      <obj_property name="ObjectShortName">cursor_rel_pos_MEM</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/image_generator_testbench/img_gen/cursor_blink_time_MEM" type="logic">
+      <obj_property name="ElementShortName">cursor_blink_time_MEM</obj_property>
+      <obj_property name="ObjectShortName">cursor_blink_time_MEM</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/image_generator_testbench/img_gen/present_state" type="other">
+      <obj_property name="ElementShortName">present_state</obj_property>
+      <obj_property name="ObjectShortName">present_state</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/image_generator_testbench/img_gen/future_state" type="other">
+      <obj_property name="ElementShortName">future_state</obj_property>
+      <obj_property name="ObjectShortName">future_state</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/image_generator_testbench/img_gen/invert_colors" type="logic">
+      <obj_property name="ElementShortName">invert_colors</obj_property>
+      <obj_property name="ObjectShortName">invert_colors</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/image_generator_testbench/img_gen/invert_colors_MEM" type="logic">
+      <obj_property name="ElementShortName">invert_colors_MEM</obj_property>
+      <obj_property name="ObjectShortName">invert_colors_MEM</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/image_generator_testbench/ST/rsta" type="logic">
+      <obj_property name="ElementShortName">rsta</obj_property>
+      <obj_property name="ObjectShortName">rsta</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/image_generator_testbench/ST/ena" type="logic">
+      <obj_property name="ElementShortName">ena</obj_property>
+      <obj_property name="ObjectShortName">ena</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/image_generator_testbench/ST/wea" type="array">
+      <obj_property name="ElementShortName">wea[0:0]</obj_property>
+      <obj_property name="ObjectShortName">wea[0:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/image_generator_testbench/ST/addra" type="array">
+      <obj_property name="ElementShortName">addra[14:0]</obj_property>
+      <obj_property name="ObjectShortName">addra[14:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/image_generator_testbench/ST/dina" type="array">
+      <obj_property name="ElementShortName">dina[6:0]</obj_property>
+      <obj_property name="ObjectShortName">dina[6:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/image_generator_testbench/ST/douta" type="array">
+      <obj_property name="ElementShortName">douta[6:0]</obj_property>
+      <obj_property name="ObjectShortName">douta[6:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/image_generator_testbench/ST/rsta_busy" type="logic">
+      <obj_property name="ElementShortName">rsta_busy</obj_property>
+      <obj_property name="ObjectShortName">rsta_busy</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/image_generator_testbench/ST/rstb" type="logic">
+      <obj_property name="ElementShortName">rstb</obj_property>
+      <obj_property name="ObjectShortName">rstb</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/image_generator_testbench/ST/enb" type="logic">
+      <obj_property name="ElementShortName">enb</obj_property>
+      <obj_property name="ObjectShortName">enb</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/image_generator_testbench/ST/web" type="array">
+      <obj_property name="ElementShortName">web[0:0]</obj_property>
+      <obj_property name="ObjectShortName">web[0:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/image_generator_testbench/ST/addrb" type="array">
+      <obj_property name="ElementShortName">addrb[14:0]</obj_property>
+      <obj_property name="ObjectShortName">addrb[14:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/image_generator_testbench/ST/dinb" type="array">
+      <obj_property name="ElementShortName">dinb[6:0]</obj_property>
+      <obj_property name="ObjectShortName">dinb[6:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/image_generator_testbench/ST/doutb" type="array">
+      <obj_property name="ElementShortName">doutb[6:0]</obj_property>
+      <obj_property name="ObjectShortName">doutb[6:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/image_generator_testbench/ST/rstb_busy" type="logic">
+      <obj_property name="ElementShortName">rstb_busy</obj_property>
+      <obj_property name="ObjectShortName">rstb_busy</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/image_generator_testbench/ST/input_char_value_last" type="array">
+      <obj_property name="ElementShortName">input_char_value_last[6:0]</obj_property>
+      <obj_property name="ObjectShortName">input_char_value_last[6:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/image_generator_testbench/ST/input_char_value_last_FF" type="array">
+      <obj_property name="ElementShortName">input_char_value_last_FF[6:0]</obj_property>
+      <obj_property name="ObjectShortName">input_char_value_last_FF[6:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+</wave_config>
