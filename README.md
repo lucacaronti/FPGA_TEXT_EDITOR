@@ -68,7 +68,7 @@
 <p class="c43"><span class="c1"><a class="c2" href="#h.c9nn2tr474gv">Conclusions</a></span><span class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p>
 <h1 class="c31" id="h.w4lxkigjksng"><span class="c27 c25">Overview</span></h1>
 <p class="c8"><span class="c0">The project consists in managing a keyboard and display datas on a monitor through a VGA. The specifications of the VGA resolution are 640 x 480, and the US layout was chosen for the keyboard. Entire project was written in VHDL and simulated on Vivado software.</span></p>
-<p class="c8"><span class="c23">All project codes are available on github at</span><span>&nbsp;</span><span class="c35"><a class="c2" href="https://www.google.com/url?q=https://github.com/lucacaronti/project_vhdl&amp;sa=D&amp;ust=1568974906611000">https://github.com/lucacaronti/project_vhdl</a></span><span class="c0">.</span></p>
+
 <p class="c8"><span class="c0">The features of the project are the possibility to write all the available letters, up to five at the same time, to move the cursor with arrows keys through max 10 pages, to change background and text color (one is the opposite of the other) through the switches (switches from 11 to 8 are for red color, from 7 to 4 are for green and from 3 to 0 are for blu).</span></p>
 <p class="c8"><span class="c23">There are also four 7-segment display that print the entered character code. &nbsp; </span></p>
 <h1 class="c31" id="h.1us46n6g1bzt"><span class="c27 c25">Project specifics</span></h1>
